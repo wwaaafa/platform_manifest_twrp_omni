@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp"
-           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/"
+           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/" />
     
   <remote  name="wwaaafa"
-           fetch="https://android.googlesource.com"
+           fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-8.1.0_r51"
            remote="aosp"
            sync-c="true"
