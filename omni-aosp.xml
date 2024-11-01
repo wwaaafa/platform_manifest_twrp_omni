@@ -10,10 +10,11 @@
   <remote  name="omnirom"
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
+  
+  <remote  name="omnirom_old"
+           fetch="https://github.com/wwaaafa
 
-  <project path="art" name="android_art" <remote  name="omnirom_rom"
-           fetch="https://github.com/wwaaafa"
-    
+  <project path="art" name="android_art" 
     remote="omnirom" revision="android-8.1" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-8.1" groups="pdk" />
 
@@ -43,7 +44,7 @@
   <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-8.1" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-8.1" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omnirom_old" revision="android-8.1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnirom" revision="android-8.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-8.1" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-8.1" />
@@ -82,7 +83,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="omnirom" revision="android-8.1" />
 
   <project path="system/bt" name="android_system_bt" remote="omnirom" revision="android-8.1" />
-  <project path="system/core" name="android_system_core" remote="omnirom" revision="android-8.1" />
+  <project path="system/core" name="android_system_core" remote="omnirom_old" revision="android-8.1" />
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-8.1" />
   <project path="system/libhidl" name="android_system_libhidl" remote="omnirom" revision="android-8.1" />
   <project path="system/media" name="android_system_media" remote="omnirom" revision="android-8.1" />
