@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp"
-           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/" />
+           fetch="https://android.googlesource.com/" />
     
   <remote  name="wwaaafa"
            fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/" />
