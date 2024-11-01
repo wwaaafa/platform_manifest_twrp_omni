@@ -8,10 +8,13 @@
            fetch="https://gitlab.com/" />
 
   <remote  name="omnirom"
-           fetch="https://github.com/wwaaafa"
+           fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
-  <project path="art" name="android_art" remote="omnirom" revision="android-8.1" groups="pdk" />
+  <project path="art" name="android_art" <remote  name="omnirom_rom"
+           fetch="https://github.com/wwaaafa"
+    
+    remote="omnirom" revision="android-8.1" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-8.1" groups="pdk" />
 
   <project path="build/make" name="android_build" remote="omnirom" revision="android-8.1" groups="pdk" >
