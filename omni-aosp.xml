@@ -8,7 +8,7 @@
            fetch="https://gitlab.com/" />
 
   <remote  name="omnirom"
-           fetch="https://github.com/omnirom"
+           fetch="https://github.com/wwaaafa"
            review="gerrit.omnirom.org" />
 
   <project path="art" name="android_art" remote="omnirom" revision="android-8.1" groups="pdk" />
