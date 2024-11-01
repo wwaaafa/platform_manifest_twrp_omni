@@ -4,7 +4,7 @@
            fetch="https://android.googlesource.com/" />
     
   <remote  name="wwaaafa"
-           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/" />
+           fetch="https://android.googlesource.com/" />
   <default revision="refs/tags/android-8.1.0_r51"
            remote="aosp"
            sync-c="true"
