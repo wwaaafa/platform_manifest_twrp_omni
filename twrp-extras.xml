@@ -28,7 +28,7 @@
     <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-8.1" />
 
 <!-- Use TeamWin repos as Omni doesn't accept any updates for recovery purposes -->
-    <project path="vendor/omni" name="android_vendor_twrp" remote="TeamWin" revision="android-8.1" />
+    <project path="vendor/twrp" name="android_vendor_twrp" remote="TeamWin" revision="android-8.1" />
 
 <!-- Use TeamWin boringssl repo - needed for arm devices requiring entropy for decryption -->
     <remove-project name="platform/external/boringssl" />
