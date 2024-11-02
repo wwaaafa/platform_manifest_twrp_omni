@@ -5,6 +5,8 @@
     
   <remote  name="wwaaafa"
            fetch="https://android.googlesource.com/" />
+  <remote  name="omnirom"
+           fetch="https://github.com/omnirom" />
   <default revision="refs/tags/android-8.1.0_r51"
            remote="aosp"
            sync-c="true"
