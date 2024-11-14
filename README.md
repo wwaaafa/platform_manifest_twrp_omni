@@ -1,3 +1,4 @@
+# change https://android.googlesource.com to https://mirrors.ustc.edu.cn/aosp/ for default.xml #
 ## Submitting Patches ##
 ------------------
 To prevent missue of gerrit - yes unfortunately there are poeple
