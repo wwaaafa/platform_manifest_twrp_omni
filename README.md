@@ -1,4 +1,7 @@
-# change https://android.googlesource.com to https://mirrors.ustc.edu.cn/aosp/ for default.xml #
+# warning #
+# this is a not twrp official support project!!! #
+# this is a not twrp official support project!!! #
+# this is a not twrp official support project!!! #
 ## Submitting Patches ##
 ------------------
 To prevent missue of gerrit - yes unfortunately there are poeple
