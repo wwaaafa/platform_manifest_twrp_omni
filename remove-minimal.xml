@@ -8,7 +8,6 @@
 
     <remove-project name="kernel/configs"/>
 
-    <remove-project name="platform/compatibility/cdd"/>
     <remove-project name="platform/cts"/>
 
     <remove-project name="platform/external/abi-compliance-checker"/>
