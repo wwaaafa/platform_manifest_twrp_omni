@@ -25,7 +25,6 @@
   <project path="external/vim" name="android_external_vim" remote="omnirom" revision="android-14.0" />
   <!-- AnClark ADDED: Omni TWRP repositories -->
 <project name="android_bootable_recovery" path="bootable/recovery" remote="omnirom" revision="android-14.0" />
-<project name="android_external_busybox" path="external/busybox" remote="omnirom" revision="android-14.0" />
 
   <project path="packages/apps/Matlog" name="android_packages_apps_Matlog" remote="omnirom" revision="android-14.0" />
   <project path="packages/apps/OmniLib" name="android_packages_apps_OmniLib" remote="omnirom" revision="android-14.0" />
