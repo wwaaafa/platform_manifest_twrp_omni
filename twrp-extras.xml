@@ -8,10 +8,11 @@
             fetch="https://github.com/LineageOS"
             review="https://review.lineageos.org" />
     
+    <!-- ro.build.xxxxxx cannot exceed 91 bytes so changes them -->
     <remote name="wwaaafa"
             fetch="https://github.com/wwaaafa"/>
     
-    
+    <!-- TWRP lives in TeamWin repo, not AOSP -->
     <remove-project name="platform/bootable/recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
 
