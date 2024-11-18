@@ -9,7 +9,8 @@
             review="https://review.lineageos.org" />
     
     <remote name="wwaaafa"
-            fetch="https://github.com/wwaaafa"
+            fetch="https://github.com/wwaaafa"/>
+    
     
     <remove-project name="platform/bootable/recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
