@@ -7,6 +7,10 @@
     <remote name="LineageOS"
             fetch="https://github.com/LineageOS"
             review="https://review.lineageos.org" />
+    
+<!-- ro.build.xxxxxx cannot exceed 91 bytes changes them -->
+    <remote name="wwaaafa"
+            fetch="https://github.com/wwaaafa"
 
 <!-- TWRP lives in TeamWin repo, not AOSP -->
     <remove-project name="platform/bootable/recovery" />
@@ -14,7 +18,7 @@
 
 <!-- Use TeamWin fork for repacker support -->
   <remove-project name="android_build" />
-  <project path="build/make" name="android_build" remote="TeamWin" revision="android-8.1" groups="pdk" >
+  <project path="build/make" name="android_build" remote="wwaaafa" revision="android-8.1" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
